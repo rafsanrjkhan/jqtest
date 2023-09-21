@@ -6,8 +6,8 @@
 // $("p1").text("Goodbye")
 // $("p").append("Goodbye")
 // $("p2").prepend("Goodbye")
-var para1 = $("<p></p>").text("paragraph after")
-$("#p1").after(para1)
-var para2 = $("<p></p>").text("paragraph before")
-$("#p2").before(para2)
+// var para1 = $("<p></p>").text("paragraph after")
+// $("#p1").after(para1)
+// var para2 = $("<p></p>").text("paragraph before")
+// $("#p2").before(para2)
 
