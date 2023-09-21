@@ -12,8 +12,11 @@
 // $("#p2").before(para2)
 // var attr = document.querySelector("a").getAttribute("href");
 // console.log(attr) 
-$("a").attr("href")
-$("a").removeAttr("href")
+// $("a").attr("href")
+// $("a").removeAttr("href")
+// $("a").attr("href", "https://www.youtube.com/")
+$("h1").css("color", "red");
+$("h1").css("font-size", "8rem");
 
 console.log()
 
