@@ -15,8 +15,10 @@
 // $("a").attr("href")
 // $("a").removeAttr("href")
 // $("a").attr("href", "https://www.youtube.com/")
-$("h1").css("color", "red");
-$("h1").css("font-size", "8rem");
-$("h1").css("font-style", "italic");
+// $("h1").css("color", "red");
+// $("h1").css("font-size", "8rem");
+// $("h1").css("font-style", "italic");
+$("h1").css({"color":"green","font-size":"3rem","font-style":"italic"});
+
 console.log()
 
