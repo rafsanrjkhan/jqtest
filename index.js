@@ -18,7 +18,10 @@
 // $("h1").css("color", "red");
 // $("h1").css("font-size", "8rem");
 // $("h1").css("font-style", "italic");
-$("h1").css({"color":"green","font-size":"3rem","font-style":"italic"});
-
+// $("h1").css({"color":"green","font-size":"3rem","font-style":"italic"});
+// way 1
+// document.querySelector("h1").classList.add("style1")
+// way 2
+$("h1").addClass("style1 style2")
 console.log()
 
