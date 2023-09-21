@@ -17,6 +17,6 @@
 // $("a").attr("href", "https://www.youtube.com/")
 $("h1").css("color", "red");
 $("h1").css("font-size", "8rem");
-
+$("h1").css("font-style", "italic");
 console.log()
 
