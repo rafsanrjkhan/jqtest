@@ -5,4 +5,6 @@
 // $("p").html("<b>Goodbye</b>")
 // $("p1").text("Goodbye")
 // $("p").append("Goodbye")
-$("p2").prepend("Goodbye")
+// $("p2").prepend("Goodbye")
+var para1 = $("<p></p>").text("paragraph 0")
+$("#p1").after(para1)
