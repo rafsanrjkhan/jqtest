@@ -10,4 +10,10 @@
 // $("#p1").after(para1)
 // var para2 = $("<p></p>").text("paragraph before")
 // $("#p2").before(para2)
+// var attr = document.querySelector("a").getAttribute("href");
+// console.log(attr) 
+$("a").attr("href")
+// $("a").removeAttr("href")
+
+console.log()
 
