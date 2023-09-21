@@ -13,7 +13,7 @@
 // var attr = document.querySelector("a").getAttribute("href");
 // console.log(attr) 
 $("a").attr("href")
-// $("a").removeAttr("href")
+$("a").removeAttr("href")
 
 console.log()
 
