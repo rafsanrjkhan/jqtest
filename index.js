@@ -46,10 +46,15 @@
    //      var text = this.innerHTML;
    //      $("h1").text(text + " is clicked") // Use querySelector to select the first <h1> element
    //  })
-   $(".myButton").on("click", function () {
+//    $(".myButton").on("click", function () {
+//       var text = this.innerHTML;
+//       $("h1").text(text + " is clicked") // Use querySelector to select the first <h1> element
+//   })
+   $(".myButton").on("mouseover", function () {
       var text = this.innerHTML;
       $("h1").text(text + " is clicked") // Use querySelector to select the first <h1> element
   })
+
 
 console.log()
 
