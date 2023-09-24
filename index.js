@@ -30,8 +30,18 @@
 // $("button").click(function () {
 //    $("h1").text("you clicked on button")
 // })
-$("button").click(function () {
-   $("h1").toggleClass("style1")
-})
+// $("button").click(function () {
+//    $("h1").toggleClass("style1")
+// })
+// index.js
+var totalButtons = document.querySelectorAll(".myButton").length;
+for (i = 0; i < totalButtons; i++) {
+    document.querySelectorAll(".myButton")[i].addEventListener("click", function () {
+        var text = this.innerHTML;
+        document.querySelector("h1").innerHTML = text + " is clicked"; // Use querySelector to select the first <h1> element
+    });
+}
+
+
 console.log()
 
