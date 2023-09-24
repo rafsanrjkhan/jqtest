@@ -23,8 +23,15 @@
 // document.querySelector("h1").classList.add("style1")
 // way 2
 // $("h1").addClass("style1 style2")
-document.querySelector("button").addEventListener("click", function () {
-   document.querySelector("h1").innerHTML = "You clicked on button"
+// Event Listener
+// document.querySelector("button").addEventListener("click", function () {
+//    document.querySelector("h1").innerHTML = "You clicked on button"
+// })
+// $("button").click(function () {
+//    $("h1").text("you clicked on button")
+// })
+$("button").click(function () {
+   $("h1").toggleClass("style1")
 })
 console.log()
 
